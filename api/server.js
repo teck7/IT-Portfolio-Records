@@ -5,9 +5,9 @@ const projectsRouter = require('./routes/projects')
 const server = express()
 
 // Add routes
-server.use(projectsRouter) 
+server.use('/api', projectsRouter)
 // enable all projects to be shown on
-// localhost:port/projects
+// localhost:port/api/projects
 
 // Allocate http port number for server to start
 const port = 7000

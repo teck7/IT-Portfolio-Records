@@ -39,7 +39,7 @@ class App extends Component {
   // Run after our component instance first appears on screen
   componentDidMount() {
     // Use built in method FETCH to fetch the api server host
-    fetch('http://localhost:3000/projects')
+    fetch('http://localhost:3000/api/projects')
       // Return a PROMISE and spits back a response
       // Which then read the Json data out from that response
       // Parse Json into Js objects
