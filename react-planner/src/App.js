@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ProjectList from './components/ProjectList'
 
 class App extends Component {
 
@@ -26,7 +27,7 @@ class App extends Component {
             // !null = true
             // !!null = false (still waiting to load)
             !!projects ? (
-              projects.length
+              <ProjectList items={ projects } />
             ) : (
               'Loading projects....'
             )

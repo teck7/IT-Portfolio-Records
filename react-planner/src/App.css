@@ -22,3 +22,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.title-h2 {
+   display:block;
+   padding-top: 25px;
+}
+
+.skill-h3 {
+  display:block;
+  margin-top: -5px;
+}
